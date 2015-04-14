@@ -6,7 +6,8 @@ try:
 except:
     pass
 
-from numpy.distutils.core import setup, Extension
+#from numpy.distutils.core import setup, Extension
+from setuptools import setup, Extension
 
 import sys
 import os
